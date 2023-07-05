@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Binary
+namespace l2p6
 {
-    internal class Program
+    internal class l2p6
     {
         static void Main(string[] args)
         {

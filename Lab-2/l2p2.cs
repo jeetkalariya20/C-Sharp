@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Subject_Per
+namespace l2p2
 {
-    internal class Program
+    internal class l2p2
     {
         static void Main(string[] args)
         {
             int s1, s2, s3, s4, s5;
             double per;
             Console.WriteLine("Enter S1: ");
-            s1=Convert.ToInt32(Console.ReadLine());
+            s1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter S2: ");
             s2 = Convert.ToInt32(Console.ReadLine());
@@ -27,17 +27,17 @@ namespace Subject_Per
             Console.WriteLine("Enter S5: ");
             s5 = Convert.ToInt32(Console.ReadLine());
 
-            per=(s1+s2+s3+s4+s5)/5;
+            per = (s1 + s2 + s3 + s4 + s5) / 5;
 
             if (per >= 60)
             {
                 Console.WriteLine("First Division");
             }
-            if (per >= 50 && per<=59)
+            if (per >= 50 && per <= 59)
             {
                 Console.WriteLine("Second Division");
             }
-            if (per >= 40 && per <=49)
+            if (per >= 40 && per <= 49)
             {
                 Console.WriteLine("Third Division");
             }
@@ -45,9 +45,8 @@ namespace Subject_Per
             {
                 Console.WriteLine("Fail...");
             }
-            
-            Console.ReadLine(); 
 
+            Console.ReadLine();
         }
     }
 }

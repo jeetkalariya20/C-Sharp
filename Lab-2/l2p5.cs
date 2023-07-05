@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fibonacci
+namespace l2p5
 {
-    internal class Program
+    internal class l2p5
     {
         static void Main(string[] args)
         {

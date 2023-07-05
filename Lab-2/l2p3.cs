@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrimeNum
+namespace l2p3
 {
-    internal class Program
+    internal class l2p3
     {
         static void Main(string[] args)
         {

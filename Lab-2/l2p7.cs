@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nPr
+namespace l2p7
 {
-    internal class Program
+    internal class l2p7
     {
         static void Main(string[] args)
         {
-            int i, fact = 1, n,r;
+            int i, fact = 1, n, r;
             Console.Write("Enter n : ");
-            n=Convert.ToInt32(Console.ReadLine());
+            n = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter r : ");
             r = Convert.ToInt32(Console.ReadLine());
@@ -22,9 +22,9 @@ namespace nPr
                 fact = fact * i;
             }
 
-            int temp,fact1=1;
+            int temp, fact1 = 1;
             temp = n - r;
-            for(i = 1; i <= temp; i++)
+            for (i = 1; i <= temp; i++)
             {
                 fact1 = fact1 * i;
             }
