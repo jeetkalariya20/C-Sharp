@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Max3Num
+namespace l1p9
 {
-    internal class Program
+    internal class l1p9
     {
         static void Main(string[] args)
         {
             int a, b, c;
             Console.WriteLine("Enter a : ");
-            a=Convert.ToInt32(Console.ReadLine());
+            a = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter b : ");
             b = Convert.ToInt32(Console.ReadLine());
@@ -20,17 +20,17 @@ namespace Max3Num
             Console.WriteLine("Enter c : ");
             c = Convert.ToInt32(Console.ReadLine());
 
-            if(a>b && a > c)
+            if (a > b && a > c)
             {
                 Console.WriteLine("Max is : " + a);
             }
-            else if (b>a && b>c)
+            else if (b > a && b > c)
             {
                 Console.WriteLine("Max is : " + b);
             }
             else
             {
-                Console.WriteLine("Max is : "+c);
+                Console.WriteLine("Max is : " + c);
             }
 
             Console.ReadLine();

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Swap
+namespace l1p10
 {
-    internal class Program
+    internal class l1p10
     {
         static void Main(string[] args)
         {

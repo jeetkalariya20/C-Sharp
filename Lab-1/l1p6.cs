@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fahrenhit_Celsius
+namespace l1p6
 {
-    internal class Program
+    internal class l1p6
     {
         static void Main(string[] args)
         {

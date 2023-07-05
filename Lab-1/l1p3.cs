@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Name_Country
+namespace l1p3
 {
-    internal class Program
+    internal class l1p3
     {
         static void Main(string[] args)
         {
             String name, country;
 
             Console.WriteLine("Enter Name : ");
-            name= Console.ReadLine();
+            name = Console.ReadLine();
 
             Console.WriteLine("Enter Country : ");
-            country= Console.ReadLine();
+            country = Console.ReadLine();
 
             Console.WriteLine("Hello " + name + " from country " + country);
 

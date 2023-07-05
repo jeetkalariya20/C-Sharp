@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SquareFeet
+namespace l1p4
 {
-    internal class Program
+    internal class l1p4
     {
         static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ namespace SquareFeet
             Console.WriteLine("Enter width");
             width = Convert.ToInt32(Console.ReadLine());
             area = length * width;
-            Console.WriteLine("Area is : "+area);
+            Console.WriteLine("Area is : " + area);
             Console.ReadLine();
         }
     }
