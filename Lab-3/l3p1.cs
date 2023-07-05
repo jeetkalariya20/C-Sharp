@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Candidate
+namespace l3p1
 {
-    internal class Program
+    internal class l3p1
     {
         static void Main(string[] args)
         {
-            Candidate c1= new Candidate();
+            Candidate c1 = new Candidate();
             c1.GetCandidateDetails();
             c1.DisplayCandidateDetails();
 
@@ -28,7 +28,7 @@ namespace Candidate
         public void GetCandidateDetails()
         {
             Console.WriteLine("Enter ID : ");
-            ID=Convert.ToInt32(Console.ReadLine());
+            ID = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter Name : ");
             Name = Console.ReadLine();

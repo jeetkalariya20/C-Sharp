@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bank_Account
+namespace l3p3
 {
     internal class l3p3
     {
@@ -27,7 +27,7 @@ namespace Bank_Account
         public void GetBankDetails()
         {
             Console.WriteLine("Enter Account_No : ");
-            Account_No=Convert.ToInt32(Console.ReadLine());
+            Account_No = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter Email : ");
             Email = Console.ReadLine();
@@ -36,7 +36,7 @@ namespace Bank_Account
             User_Name = Console.ReadLine();
 
             Console.WriteLine("Enter Account_Type : ");
-            Account_Type =Console.ReadLine();
+            Account_Type = Console.ReadLine();
 
             Console.WriteLine("Enter Account_Balance : ");
             Account_Balance = Convert.ToInt32(Console.ReadLine());
@@ -51,4 +51,3 @@ namespace Bank_Account
             Console.WriteLine("Account_Balance : " + Account_Balance);
         }
     }
-}

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Distance
+namespace l3p6
 {
     internal class l3p6
     {
@@ -33,4 +33,3 @@ namespace Distance
             return D3;
         }
     }
-}

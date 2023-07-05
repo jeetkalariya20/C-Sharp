@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rectangle
+namespace l3p7
 {
     internal class l3p7
     {
         static void Main(string[] args)
         {
-            Area a = new Area(60,60);
+            Area a = new Area(60, 60);
             a.DisplayArea();
             Console.ReadLine();
         }

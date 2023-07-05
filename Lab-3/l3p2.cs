@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Staff
+namespace l3p2
 {
     internal class l3p2
     {
@@ -12,18 +12,17 @@ namespace Staff
         {
             int i, n;
             Console.WriteLine("Enter n : ");
-            n=Convert.ToInt32(Console.ReadLine());  
-            Staff[] s= new Staff[n];
+            n = Convert.ToInt32(Console.ReadLine());
+            Staff[] s = new Staff[n];
             for (i = 0; i < n; i++)
             {
-                s[i]=new Staff();
+                s[i] = new Staff();
                 s[i].GetStaffDetails();
                 s[i].DisplayStaffDetails();
             }
             Console.ReadLine();
         }
     }
-
     class Staff
     {
         string Name;
@@ -35,7 +34,7 @@ namespace Staff
         public void GetStaffDetails()
         {
             Console.WriteLine("Enter Name : ");
-            Name= Console.ReadLine();
+            Name = Console.ReadLine();
 
             Console.WriteLine("Enter Department : ");
             Department = Console.ReadLine();
@@ -57,8 +56,6 @@ namespace Staff
             {
                 Console.WriteLine("Name is : " + Name + " Salary is : " + Salary);
             }
-            
+
         }
-       
     }
-}

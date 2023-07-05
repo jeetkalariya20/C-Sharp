@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Student
+namespace l3p4
 {
     internal class l3p4
     {
         static void Main(string[] args)
         {
-            Student s = new Student(210101010,"XYZ",5,8,7);
+            Student s = new Student(210101010, "XYZ", 5, 8, 7);
             s.DisplayStudentDetails();
             Console.ReadLine();
         }
     }
-
     class Student
     {
         int Enrollment_No;
@@ -24,7 +23,7 @@ namespace Student
         int SPI;
         int CPI;
 
-        public Student(int Enrollment_No, string Student_No, int Semester, int SPI,int CPI)
+        public Student(int Enrollment_No, string Student_No, int Semester, int SPI, int CPI)
         {
             this.Enrollment_No = Enrollment_No;
             this.Student_Name = Student_No;
@@ -35,11 +34,10 @@ namespace Student
 
         public void DisplayStudentDetails()
         {
-            Console.WriteLine("Enrollment_No : "+Enrollment_No);
+            Console.WriteLine("Enrollment_No : " + Enrollment_No);
             Console.WriteLine("Student_Name : " + Student_Name);
             Console.WriteLine("Semester : " + Semester);
             Console.WriteLine("SPI : " + SPI);
             Console.WriteLine("CPI : " + CPI);
         }
     }
-}

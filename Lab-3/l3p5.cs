@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Salary
+namespace l3p5
 {
     internal class l3p5
     {
         static void Main(string[] args)
         {
-            Salary s= new Salary();
+            Salary s = new Salary();
             s.CalculateSalary();
             Console.ReadLine();
         }
     }
-
     class Salary
     {
         double TA;
@@ -32,8 +31,6 @@ namespace Salary
 
         public void CalculateSalary()
         {
-            Console.WriteLine("Salary is : "+(TA+DA+HRA));
+            Console.WriteLine("Salary is : " + (TA + DA + HRA));
         }
-
     }
-}
